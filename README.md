@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Project live
+
+--> [MKS](https://cocky-ardinghelli-d3d70f.netlify.app/).
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -14,57 +18,50 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `yarn test`
+# UX Developer Challenge - Social media dashboard with theme switcher
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## The challenge
 
-### `yarn build`
+The client has requested you to build out this Social Media Dashboard and get it looking as close to the design as possible, keeping in mind simplicity and ease-of-use.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Deliver the complete experience using React (you can use Create React App), any form of CSS techniques or tools you see fit and any other tools you like to help you complete the task.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The Dashbord should display correctly in Desktop, Tablet and Mobile; you'll only receive a desktop mockup. On mobile, the user should to be able to view as much information on the screen as posible, without losing the design's coherence.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Your users should be able to:
 
-### `yarn eject`
+- View the optimal layout for the site depending on their device's screen size
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- See hover states for all interactive elements on the page
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Toggle color theme to their preference
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- View more information about a specific social media account through a modal. For the chart, the team has agreed on using the following library: https://recharts.org/en-US/examples/SimpleLineChart
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+On delivery, please provide clear explanations about your decision-making process for the responsive approach; document code as much as possible as well.
 
-## Learn More
+## Where to find everything
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Your task is to build out the project to the designs inside the `/design` folder.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The designs are in JPG static format. This will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`.
 
-### Code Splitting
+You will find all the required assets in the `/images` folder. The assets are already optimized.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+There is also a `style-guide.md` file, which contains the information you'll need, such as color palette and fonts.
 
-### Analyzing the Bundle Size
+## Some tips
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+1. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead your CSS and components to make them reusable.
 
-### Making a Progressive Web App
+2. You can deliver everything else you consider necessary to support your solution.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+3. Pay special attention to the details.
 
-### Advanced Configuration
+4. We expect to see how you plan out the app structure and styles as a UX Dev. This means that, although it still matters, javascript "logic" is not our main focus here. So, for the purposes of this excersise you can just hard code the data provided on `content.txt` into your components.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Deliverables
 
-### Deployment
+- Complete project files working on Chrome, Safari, Firefox and Edge and project's documentation. You can deliver on a zip or through a Github repository.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Have fun building!** 🚀
