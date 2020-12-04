@@ -21,8 +21,8 @@ Switch.propTypes = {
 const Input = styled.input`
   -webkit-appearance: none;
   position: relative;
-  width: 50px;
   width: 44px;
+  min-width: 44px;
   height: 22px;
   background-size: cover;
 

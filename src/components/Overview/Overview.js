@@ -110,19 +110,30 @@ Card.propTypes = {
 }
 
 const ContainerCards = styled.div`
-  padding: 2px 0;
-
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  gap: 26px;
+  gap: 20px;
+  padding: 2px 0;
+
+  @media (min-width: 376px) {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+  }
+
+  @media (min-width: 769px) {
+    gap: 26px;
+  }
 `
 
 const Container = styled.div`
   background-color: ${({ theme }) => theme.cardBackground};
   border-radius: 5px;
-  margin-bottom: 20px;
-  padding: 28px 28px 16px 21px;
+  padding: 20px 17px 16px 17px;
   cursor: pointer;
+
+  @media screen and (min-width: 426px) {
+    padding: 28px 28px 16px 21px;
+  }
 
   &:hover {
     background-color: ${({ theme }) => theme.cardBackgroundHover};

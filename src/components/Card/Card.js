@@ -77,10 +77,14 @@ const TotalFollowers = styled.div`
   margin-bottom: 24px;
 
   span {
-    font-size: 3em;
+    font-size: 2.5em;
     letter-spacing: 2px;
     margin-bottom: 3px;
     font-weight: bold;
+
+    @media screen and (min-width: 426px) {
+      font-size: 3em;
+    }
   }
 
   div {

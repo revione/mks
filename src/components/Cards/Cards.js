@@ -23,8 +23,13 @@ const Container = styled.div`
   margin-bottom: 35px;
 
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  gap: 26px;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 20px;
+
+  @media screen and (min-width: 426px) {
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 26px;
+  }
 `
 
 export default Cards

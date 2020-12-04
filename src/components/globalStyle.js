@@ -22,7 +22,8 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   #root {
-    width: 77.1vw;
+    width: 85vw;
     padding-bottom: 5%;
+    max-width: 960px;
   }
 `
